@@ -378,7 +378,22 @@ main .cta-section .cta {
     justify-content: space-between;
 }
 
+main .faq-section  {
+    margin-bottom: 6em;
+    /* test */
+}
 
+main .faq-section h2{
+    margin-bottom: 2em;
+    /* test */
+}
+
+main .faq-section .faq{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    /* test */
+}
 
 
 /* /Main */
