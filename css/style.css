@@ -309,13 +309,15 @@ main .partner-section .partner-content{
 }
 
 main .dropbox-business {
-    margin-bottom: 10em;
+    margin-bottom: 8em;
 }
 
 main .dropbox-business .business-grid{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
+    margin-bottom: 10em;
 }
 
 main .dropbox-business .business-grid .item{
@@ -325,6 +327,44 @@ main .dropbox-business .business-grid .item{
 main .dropbox-business .business-grid .item img{
     width: 100%;
 }
+
+main .dropbox-business h2 {
+    margin-bottom: 3em;
+}
+
+main .companies {
+    width: 100%;
+    background-color: lightblue;
+    /* test */
+
+    display: flex;
+}
+
+main .companies .company-card {
+    height: 500px;
+    /* test */
+    display: flex;
+    flex-flow: row wrap;
+
+    width: calc(100% / 3);
+    
+}
+
+main .companies .company-card .card {
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    /* test */
+}
+
+main .companies .company-card .card img{
+    width: 100%;
+}
+
+
+
+
 
 
 /* /Main */
