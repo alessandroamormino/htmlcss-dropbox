@@ -308,6 +308,24 @@ main .partner-section .partner-content{
     width: 40%;
 }
 
+main .dropbox-business {
+    margin-bottom: 10em;
+}
+
+main .dropbox-business .business-grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+main .dropbox-business .business-grid .item{
+    width: 30%;
+}
+
+main .dropbox-business .business-grid .item img{
+    width: 100%;
+}
+
 
 /* /Main */
 
