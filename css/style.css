@@ -342,6 +342,7 @@ main .companies {
 
 main .companies .company-card {
     height: 500px;
+    background-color: lightyellow;
     /* test */
     display: flex;
     flex-flow: row wrap;
@@ -362,7 +363,20 @@ main .companies .company-card .card img{
     width: 100%;
 }
 
+main .cta-section {
+    width: 100%;
+    background-color: #B4D0E7;
+    /* test */
+}
 
+main .cta-section .cta {
+    padding-bottom: 6em;
+    /* test */
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
