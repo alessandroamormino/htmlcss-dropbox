@@ -151,16 +151,112 @@ header .jumbo .jumbo-container .jumbo-content .jumbo-right img{
 
 /* Main */
 
-main .substription-header > h2 {
+main #substription-header{
+    margin-bottom: 2em;
+}
+
+main #substription-header > h2 {
     font-size: 2em;
     margin-bottom: 1.5em;
 }
 
-main .substription-header .fatture {
+main #substription-header .fatture {
     /* flex */
     display: flex;
     gap: 2em;
 }
+
+main #subscription-plans {
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
+
+#subscription-plans .plan {
+    border: 1px solid lightgrey;
+    /* test */
+    width: 30%;
+}
+
+#subscription-plans .plan .plan-header{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: .5em 0;
+}
+
+#subscription-plans .plan .plan-content{
+    padding: 2em 1.5em;
+
+    /* flex */
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+}
+
+#subscription-plans .plan .plan-content .plan-info {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .8em;
+}
+
+#subscription-plans .plan .plan-content .plan-offer {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+#subscription-plans .plan .plan-content .plan-offer ,fa-solid {
+    font-size: .9em;
+}
+
+#subscription-plans .plan .plan-content .plan-offer .plan-offer-users {
+    display: flex;
+    gap: .5em;
+}
+#subscription-plans .plan .plan-content .plan-offer .plan-offer-space {
+    display: flex;
+    gap: .5em;
+
+}
+#subscription-plans .plan .plan-content .plan-offer .plan-offer-functions {
+    display: flex;
+    gap: .5em;
+
+}
+
+#subscription-plans .plan .plan-content .plan-button .btn{
+    width: 100%;
+}
+
+#subscription-plans .plan .plan-content .separator {
+    width: 2em;
+    border: 1px solid lightgrey;
+}
+
+#subscription-plans .plan .plan-content .focal-points-list{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+#subscription-plans .plan .plan-content .focal-points-list ul {
+    margin: 0 1.5em;
+}
+
+#subscription-plans .plan .plan-content .focal-points-list ul li {
+    margin-bottom: 1em;
+}
+
+
+#subscription-plans .plan .plan-content .list {
+    display: flex;
+    gap: .2em;
+}
+
+#subscription-plans .plan .plan-content .list .focal-points-list-icon .fa-solid{
+    color: blue;
+}
+
 
 /* /Main */
 
