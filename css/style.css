@@ -307,6 +307,7 @@ main .partner-section .partner-img img{
 main .partner-section .partner-content{
     width: 40%;
     padding: 3em;
+    /* test */
 }
 
 main .dropbox-business {
@@ -323,10 +324,12 @@ main .dropbox-business .business-grid{
 
 main .dropbox-business .business-grid .item{
     width: 30%;
+    /* test */
 }
 
 main .dropbox-business .business-grid .item img{
     width: 100%;
+    /* test */
 }
 
 main .dropbox-business h2 {
