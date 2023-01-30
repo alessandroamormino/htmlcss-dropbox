@@ -306,6 +306,7 @@ main .partner-section .partner-img img{
 
 main .partner-section .partner-content{
     width: 40%;
+    padding: 3em;
 }
 
 main .dropbox-business {
@@ -395,6 +396,41 @@ main .faq-section .faq{
     /* test */
 }
 
-
 /* /Main */
+
+/* Footer */
+footer{
+    background-color: black;
+}
+
+footer .footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    /* test */
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-container .footer-item{
+    color: white;
+    padding: 5em 0;
+    /* test */
+
+}
+footer .footer-container .footer-item h4{
+    margin-bottom: 1em;
+}
+
+footer .footer-container .footer-item ul{
+    list-style-type: none;
+}
+
+footer .footer-container .footer-item ul li{
+    font-size: .8em;
+    padding: .5em 0;
+}
+/* /Footer */
 
