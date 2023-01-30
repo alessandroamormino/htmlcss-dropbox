@@ -27,6 +27,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 
     width: 100%;
     height: 70px;
@@ -35,6 +36,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background-color: white;
 }
 
 nav .nav-left {
@@ -78,6 +81,58 @@ nav .nav-right {
 }
 
 /* /Nav */
+
+header .jumbo {
+    background-color: #B4D0E7;
+}
+
+header .jumbo .jumbo-container{
+    margin: 0 auto;
+    max-width: 900px;
+
+    /* flex */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+header .jumbo .jumbo-container .jumbo-header{
+    font-size: 2em;
+    padding: 2em 0 1em 0;
+}
+
+header .jumbo .jumbo-container .jumbo-content{
+    /* flex */
+    display: flex;
+
+    font-size: .9em;
+}
+
+header .jumbo .jumbo-container .jumbo-content .jumbo-left {
+    width: 35%;
+}
+
+header .jumbo .jumbo-container .jumbo-content .jumbo-right {
+    width: 65%;
+    position: relative;
+}
+
+header .jumbo .jumbo-container .jumbo-content .jumbo-left > *:not(.jumbo-sub-link) {
+    padding-bottom: 2em;
+}
+
+header .jumbo .jumbo-container .jumbo-content .jumbo-left .jumbo-sub-link {
+    font-size: 3.5em;
+}
+
+header .jumbo .jumbo-container .jumbo-content .jumbo-right img{
+    max-width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 /* /Header */
 
