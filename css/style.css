@@ -170,6 +170,8 @@ main #subscription-plans {
     /* flex */
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 3em;
 }
 
 #subscription-plans .plan {
@@ -256,6 +258,37 @@ main #subscription-plans {
 #subscription-plans .plan .plan-content .list .focal-points-list-icon .fa-solid{
     color: blue;
 }
+
+
+
+main .team-section {
+    border: 1px solid lightgrey;
+}
+
+main .team-section .team-header {
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+main .team-section .team-container{
+    display: flex;
+
+    padding: 2em 1.5em;
+}
+
+main .team-section .team-container .team-left{
+    width: 70%;
+}
+main .team-section .team-container .team-right{
+    width: 30%;
+}
+
+main .team-section .team-container .team-right button{
+    width: 100%;
+}
+
+
 
 
 /* /Main */
