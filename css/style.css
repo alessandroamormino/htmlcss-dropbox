@@ -277,6 +277,14 @@ main .team-section .team-container{
     padding: 2em 1.5em;
 }
 
+main .team-section .team-container .team-title h3{
+    padding-bottom: 1em;
+}
+
+main .team-section .team-container .team-title p{
+    padding-bottom: 2.5em;
+}
+
 main .team-section .team-container .team-left{
     width: 70%;
 }
