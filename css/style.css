@@ -17,6 +17,10 @@ body{
     padding: .6em 1em;
 }
 
+.btn:hover{
+    background-color: #347CFF;
+}
+
 .container-centered{
     max-width: 800px;
     margin: 0 auto;
@@ -314,8 +318,23 @@ main .partner-section .partner-img img{
 
 main .partner-section .partner-content{
     width: 40%;
-    padding: 3em;
+    padding: 3em 0 3em 3em;
     /* test */
+}
+
+main .partner-section .partner-content h3{
+    font-size: 1.5em;
+}
+
+main .partner-section .partner-content p{
+    padding: 2em 0;
+    font-size: 1.1em;
+}
+
+main .partner-section .partner-content .btn2 {
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 1em;
 }
 
 main .dropbox-business {
