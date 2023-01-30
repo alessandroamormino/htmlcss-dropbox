@@ -288,7 +288,25 @@ main .team-section .team-container .team-right button{
     width: 100%;
 }
 
+main .partner-section{
+    display: flex;
 
+    margin: 10em 0;
+}
+
+main .partner-section .partner-img{
+    width: 60%;
+}
+
+main .partner-section .partner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .partner-section .partner-content{
+    width: 40%;
+}
 
 
 /* /Main */
