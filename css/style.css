@@ -75,11 +75,17 @@ nav ul li{
 nav ul a {
     padding: 1.5em 0;
     text-decoration: none;
+    border: none;
 }
 
 nav ul a:visited,
 nav ul a:focus{
     color: black;
+}
+
+/* Bonus */
+nav ul a:hover{
+    box-shadow: inset 0px -1px 0px 0px #000;
 }
 
 nav .nav-right {
