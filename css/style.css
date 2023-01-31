@@ -386,8 +386,6 @@ main .companies {
 }
 
 main .companies .company-card {
-    background-color: lightyellow;
-    /* test */
     display: flex;
     flex-flow: row wrap;
 
@@ -399,13 +397,39 @@ main .companies .company-card {
 main .companies .company-card .card {
     width: 50%;
     height: 50%;
-    background-color: aquamarine;
-    border: 1px solid black;
-    /* test */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .companies .company-card #designit{
+    background-color: #A2D39B;
+}
+main .companies .company-card #arizona{
+    background-color: #61082B;
+}
+main .companies .company-card #florida{
+    background-color: #1A93CE;
+}
+main .companies .company-card #topps{
+    background-color: #FB1C1D;
+}
+main .companies .company-card #bicycle{
+    background-color: #D5131E;
+}
+main .companies .company-card #hearst{
+    background-color: #B4D0E7;
+}
+main .companies .company-card #lonely{
+    background-color: #0D2581   ;
+}
+main .companies .company-card #clear{
+    background-color: #FED830;
 }
 
 main .companies .company-card .card img{
-    width: 100%;
+    width: 50%;
 }
 
 main .cta-section {
