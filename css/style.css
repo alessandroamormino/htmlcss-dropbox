@@ -370,8 +370,12 @@ main .dropbox-business .business-grid .item img{
     /* test */
 }
 
-main .dropbox-business h2 {
+main .dropbox-business h2:first-child {
     margin-bottom: 3em;
+}
+
+main .dropbox-business h2:nth-of-type(2) {
+    margin-bottom: 1em;
 }
 
 main .companies {
