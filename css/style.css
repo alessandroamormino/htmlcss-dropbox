@@ -519,6 +519,7 @@ main .faq-section .faq p{
     display: none;
 }
 
+/* Bonus */
 main .faq-section .faq:hover p{
     display: block;
 
