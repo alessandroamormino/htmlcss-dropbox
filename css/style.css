@@ -379,19 +379,20 @@ main .dropbox-business h2:nth-of-type(2) {
 }
 
 main .companies {
-    background-color: lightblue;
-    /* test */
-
     display: flex;
 }
 
 main .companies .company-card {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+main .companies .company-card.left, main .companies .company-card.right {
     display: flex;
     flex-flow: row wrap;
 
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-    
 }
 
 main .companies .company-card .card {
@@ -405,6 +406,7 @@ main .companies .company-card .card {
 
 main .companies .company-card #designit{
     background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 main .companies .company-card #arizona{
     background-color: #61082B;
@@ -430,6 +432,28 @@ main .companies .company-card #clear{
 
 main .companies .company-card .card img{
     width: 50%;
+}
+
+main .companies .company-card.center{
+    background-color: #F5F5F5;
+    padding: 2em;
+
+    overflow: auto;
+}
+
+main .companies .company-card.center svg{
+    display: block;
+    width: 50%;
+}
+
+main .companies .company-card.center hr {
+    width: 20%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+main .companies .company-card.center p{
+    margin-bottom: 3em;
 }
 
 main .cta-section {
