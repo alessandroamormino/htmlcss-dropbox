@@ -537,10 +537,6 @@ main .faq-section .faq:hover .fa-angle-up{
     display: block;
 }
 
-
-
-
-
 /* /Main */
 
 /* Footer */
@@ -555,13 +551,12 @@ footer .footer-container {
     /* flex */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 footer .footer-container .footer-item{
     color: white;
     padding: 5em 0;
-    /* test */
 
 }
 footer .footer-container .footer-item h4{
@@ -575,6 +570,31 @@ footer .footer-container .footer-item ul{
 footer .footer-container .footer-item ul li{
     font-size: .8em;
     padding: .5em 0;
+}
+
+footer .footer-container .footer-item ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-container .footer-item ul li a:visited, 
+footer .footer-container .footer-item ul li a:focus{
+    color: white;
+}
+
+footer .footer-container .footer-item ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .footer-container .footer-item:first-child .lang{
+    font-size: .8em;
+    color: grey;
+
+    padding-top: 5em;
+}
+
+footer .footer-container .footer-item:first-child .lang hr{
+    margin-bottom: 3em;
 }
 /* /Footer */
 
