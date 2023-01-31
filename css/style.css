@@ -459,33 +459,48 @@ main .companies .company-card.center p{
 main .cta-section {
     width: 100%;
     background-color: #B4D0E7;
-    /* test */
 }
 
 main .cta-section .cta {
     padding-bottom: 6em;
-    /* test */
 
     /* flex */
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+}
+
+main .cta-section .cta .cta-left{
+    width: 60%;
+}
+main .cta-section .cta .cta-right{
+    width: 40%;
+    text-align: center;
+}
+
+main .cta-section .cta .cta-right .btn3{
+    padding: .5em 2.5em;
+    background-color: #fff;
+    border: none;
+}
+
+main .cta-section .cta .cta-left h2 {
+    color: #600629;
+    font-size: 2.5em;
 }
 
 main .faq-section  {
     margin-bottom: 6em;
-    /* test */
 }
 
 main .faq-section h2{
     margin-bottom: 2em;
-    /* test */
 }
 
 main .faq-section .faq{
     border: 1px solid black;
     width: 100%;
     height: 50px;
-    /* test */
 }
 
 /* /Main */
@@ -498,7 +513,6 @@ footer{
 footer .footer-container {
     max-width: 900px;
     margin: 0 auto;
-    /* test */
 
     /* flex */
     display: flex;
