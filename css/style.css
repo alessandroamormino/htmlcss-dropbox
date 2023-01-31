@@ -344,6 +344,14 @@ main .dropbox-business {
     margin-bottom: 8em;
 }
 
+main .dropbox-business h2{
+    font-size: 2.5em;
+}
+
+main .dropbox-business h3, p{
+    margin-bottom: 1.5em;
+}
+
 main .dropbox-business .business-grid{
     display: flex;
     flex-flow: row wrap;
