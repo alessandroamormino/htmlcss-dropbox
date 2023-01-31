@@ -520,14 +520,14 @@ main .faq-section .faq:first-of-type{
     border-top: 1px solid lightgrey;
 }
 
-
+/* Bonus */
 main .faq-section .faq p{
-    display: none;
+    visibility: hidden;
+    transition: all .2s ease-in ;
 }
 
-/* Bonus */
 main .faq-section .faq:hover p{
-    display: block;
+    visibility: visible;
 
     padding: 2em 1.5em .5em 1.5em;
 }
