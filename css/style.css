@@ -367,7 +367,6 @@ main .dropbox-business h2 {
 }
 
 main .companies {
-    width: 100%;
     background-color: lightblue;
     /* test */
 
@@ -375,13 +374,13 @@ main .companies {
 }
 
 main .companies .company-card {
-    height: calc(100vw / 3);
     background-color: lightyellow;
     /* test */
     display: flex;
     flex-flow: row wrap;
 
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     
 }
 
