@@ -16,9 +16,31 @@ body{
     border: none;
     padding: .6em 1em;
 }
-
+/* bonus */
 .btn:hover{
     background-color: #347CFF;
+}
+
+.btn2 {
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 1em;
+}
+/* bonus */
+.btn2:hover{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+
+.btn3{
+    padding: .5em 2.5em;
+    background-color: #fff;
+    border: none;
+    transition: all .1s linear;
+}
+/* bonus */
+.btn3:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em rgba(0,0,0,0.5);
+    transform: translateY(-0.25em) ;
 }
 
 .container-centered{
@@ -343,12 +365,6 @@ main .partner-section .partner-content p{
     font-size: 1.1em;
 }
 
-main .partner-section .partner-content .btn2 {
-    border: 1px solid black;
-    background-color: #ffffff;
-    padding: 1em;
-}
-
 main .dropbox-business {
     margin-bottom: 8em;
 }
@@ -413,6 +429,8 @@ main .companies .company-card .card {
     align-items: center;
 }
 
+/* bonus */
+
 main .companies .company-card #designit{
     background-color: #A2D39B;
 }
@@ -424,7 +442,6 @@ main .companies .company-card #arizona{
 }
 main .companies .company-card #arizona:hover{
     box-shadow: inset -10px -10px 0px 0px #ad7b90, inset 10px 10px 0px 0px #ad7b90;
-
 }
 main .companies .company-card #florida{
     background-color: #1A93CE;
@@ -509,12 +526,6 @@ main .cta-section .cta .cta-left{
 main .cta-section .cta .cta-right{
     width: 40%;
     text-align: center;
-}
-
-main .cta-section .cta .cta-right .btn3{
-    padding: .5em 2.5em;
-    background-color: #fff;
-    border: none;
 }
 
 main .cta-section .cta .cta-left h2 {
