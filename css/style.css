@@ -29,6 +29,11 @@ body{
     font-size: .9em;
 }
 
+.light{
+    color: grey;
+    font-style: italic;
+}
+
 /* /Assets */
 
 
@@ -320,9 +325,7 @@ main .partner-section .partner-img{
 }
 
 main .partner-section .partner-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%;    
 }
 
 main .partner-section .partner-content{
@@ -412,28 +415,52 @@ main .companies .company-card .card {
 
 main .companies .company-card #designit{
     background-color: #A2D39B;
-    border: 10px solid #D1E9CD;
+}
+main .companies .company-card #designit:hover{
+    box-shadow: inset -10px -10px 0px 0px #D1E9CD, inset 10px 10px 0px 0px #D1E9CD;
 }
 main .companies .company-card #arizona{
     background-color: #61082B;
 }
+main .companies .company-card #arizona:hover{
+    box-shadow: inset -10px -10px 0px 0px #ad7b90, inset 10px 10px 0px 0px #ad7b90;
+
+}
 main .companies .company-card #florida{
     background-color: #1A93CE;
+}
+main .companies .company-card #florida:hover{
+    box-shadow: inset -10px -10px 0px 0px #6dbae0, inset 10px 10px 0px 0px #6dbae0;
 }
 main .companies .company-card #topps{
     background-color: #FB1C1D;
 }
+main .companies .company-card #topps:hover{
+    box-shadow: inset -10px -10px 0px 0px #f18888, inset 10px 10px 0px 0px #f18888;
+}
 main .companies .company-card #bicycle{
     background-color: #D5131E;
+}
+main .companies .company-card #bicycle:hover{
+    box-shadow: inset -10px -10px 0px 0px #d2686d, inset 10px 10px 0px 0px #d2686d;
 }
 main .companies .company-card #hearst{
     background-color: #B4D0E7;
 }
+main .companies .company-card #hearst:hover{
+    box-shadow: inset -10px -10px 0px 0px #d7e0e8, inset 10px 10px 0px 0px #d7e0e8;
+}
 main .companies .company-card #lonely{
     background-color: #0D2581   ;
 }
+main .companies .company-card #lonely:hover{
+    box-shadow: inset -10px -10px 0px 0px #6473af, inset 10px 10px 0px 0px #6473af;
+}
 main .companies .company-card #clear{
     background-color: #FED830;
+}
+main .companies .company-card #clear:hover{
+    box-shadow: inset -10px -10px 0px 0px #ffed9c, inset 10px 10px 0px 0px #ffed9c;
 }
 
 main .companies .company-card .card img{
