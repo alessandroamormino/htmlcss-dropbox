@@ -170,6 +170,10 @@ header .jumbo .jumbo-container .jumbo-content .jumbo-left > *:not(.jumbo-sub-lin
     padding-bottom: 2em;
 }
 
+header .jumbo-sub-link a{
+    color: #000;
+}
+
 header .jumbo-sub-link a:visited,
 header .jumbo-sub-link a:focus{
     color: black;
