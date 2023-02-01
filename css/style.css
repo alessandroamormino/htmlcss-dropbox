@@ -564,6 +564,9 @@ main .faq-section .faq p{
     transition: all .2s ease-in ;
 }
 
+/* ho dovuto lasciare l'hover all'intera sezione faq anziché solo sul titolo
+altrimenti non potevo cambiare l'icon con la stessa azione di hover   */
+
 main .faq-section .faq:hover p{
     visibility: visible;
 
